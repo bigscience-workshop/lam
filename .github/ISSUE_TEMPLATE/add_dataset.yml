@@ -58,8 +58,8 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info? (optional)
+      label: Contact details for data custodian 
+      description: A contact for the custodian (email address, web link etc.). This will be useful if it's necessary to ask for further questions about the dataset  
       placeholder: ex. email@example.com
     validations:
       required: false

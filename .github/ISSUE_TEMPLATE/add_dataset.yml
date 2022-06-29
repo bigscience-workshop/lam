@@ -1,0 +1,79 @@
+name: Add dataset
+description: Suggest a new Library, Archive or Museum dataset to include in the Hugging Face Hub.
+title: "[Add Dataset]: "
+labels: ["dataset"]
+assignees: "davanstrien"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a dataset!
+  - type: textarea
+    id: data-description
+    attributes:
+      label: Dataset description
+      description: A brief description of the dataset and why it might be of interest
+      placeholder: Please summarise the dataset and why it might be interesting to add to the hub. 
+      value: "This dataset is awesome! Here is why..."
+    validations:
+      required: true
+  - type: dropdown
+    id:  dataset-modality
+    attributes:
+      label: Dataset modality
+      description: What is the modality of the data?
+      options:
+        - Text
+        - Image
+        - Audio
+        - Video
+        - Mixed
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: type-of-dataset
+    attributes:
+      label: Type of dataset
+      description: What type of datset is this?
+      options:
+        - label: A large unlabeled text corpus, i.e. something that could be used for training language models
+        - label: A large unlabeled image corpus, i.e. something that could be used for pre-training image models
+        - label: An annotated/labelled dataset, i.e. somethng that could be used to train/evaluate a machine learning model
+        - label: A benchmark dataset, i.e. a dataset that has been used to evaluate the performance of machine learning models
+        - label: Other
+    validations:
+      required: true
+  - type: input
+    id: licence
+    attributes:
+      label: Dataset licence
+      description: Please include the license for the dataset here (either include the licence or a link) 
+  - type: checkboxes
+    id: dataset-access
+    attributes:
+      label: How can you access this data
+      description: How can one access this data?
+      options:
+        - label: Via an open API
+        - label: Via an API that requires free registration 
+        - label: As a download from a repository/website 
+        - label: Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm-open
+    attributes:
+      label: Confirm the dataset is open
+      description: Please confirm the dataset is currently openly available 
+      options:
+        - label: To the best of my knowledge, this dataset is accessible via an open licence 
+          required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info? (optional)
+      placeholder: ex. email@example.com
+    validations:
+      required: false

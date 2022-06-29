@@ -48,10 +48,10 @@ body:
       label: How can you access this data
       description: How can one access this data?
       options:
-        - label: As a download from a repository/website 
-        - label: Via an open API
-        - label: Via an API that requires free registration 
-        - label: Other
+        - As a download from a repository/website 
+        - Via an open API
+        - Via an API that requires free registration 
+        - Other
     validations:
       required: true
   - type: checkboxes

@@ -35,15 +35,15 @@ body:
     attributes:
       label: Dataset licence
       description: Please include the license for the dataset here (either include the licence or a link) 
-  - type: checkboxes
+  - type: dropdown
     id: dataset-access
     attributes:
       label: How can you access this data
       description: How can one access this data?
       options:
+        - label: As a download from a repository/website 
         - label: Via an open API
         - label: Via an API that requires free registration 
-        - label: As a download from a repository/website 
         - label: Other
     validations:
       required: true

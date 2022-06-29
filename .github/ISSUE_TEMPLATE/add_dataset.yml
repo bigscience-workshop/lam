@@ -2,7 +2,6 @@ name: Add dataset
 description: Suggest a new Library, Archive or Museum dataset to include in the Hugging Face Hub.
 title: "Add dataset: [dataset_name_in_snake_case]"
 labels: ["dataset"]
-assignees: "davanstrien"
 body:
   - type: markdown
     attributes:

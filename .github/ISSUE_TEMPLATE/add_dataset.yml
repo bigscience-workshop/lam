@@ -91,7 +91,7 @@ body:
       label: Other licence 
       description:  Other licence if it is not included in the above dropdown list
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: dataset-access
     attributes:

@@ -37,11 +37,61 @@ body:
         - Other
     validations:
       required: true
-  - type: input
+  - type: dropdown
     id: licence
     attributes:
       label: Dataset licence
-      description: Please include the license for the dataset here (either include the licence or a link) 
+      description: Please select the licence, if it's not included in the options below add it to the next field
+      options:
+      - Other license
+      - Creative Commons Attribution 1.0 Generic
+      - Creative Commons Attribution 2.0 Generic
+      - Creative Commons Attribution 2.5 Generic
+      - Creative Commons Attribution 3.0 Unported
+      - Creative Commons Attribution 3.0 Austria
+      - Creative Commons Attribution 3.0 United States
+      - Creative Commons Attribution 4.0 International
+      - Creative Commons Attribution Non Commercial 1.0 Generic
+      - Creative Commons Attribution Non Commercial 2.0 Generic
+      - Creative Commons Attribution Non Commercial 2.5 Generic
+      - Creative Commons Attribution Non Commercial 3.0 Unported
+      - Creative Commons Attribution Non Commercial 4.0 International
+      - Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic
+      - Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic
+      - Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic
+      - Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported
+      - Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO
+      - Creative Commons Attribution Non Commercial No Derivatives 4.0 International
+      - Creative Commons Attribution Non Commercial Share Alike 1.0 Generic
+      - Creative Commons Attribution Non Commercial Share Alike 2.0 Generic
+      - Creative Commons Attribution Non Commercial Share Alike 2.5 Generic
+      - Creative Commons Attribution Non Commercial Share Alike 3.0 Unported
+      - Creative Commons Attribution Non Commercial Share Alike 4.0 International
+      - Creative Commons Attribution No Derivatives 1.0 Generic
+      - Creative Commons Attribution No Derivatives 2.0 Generic
+      - Creative Commons Attribution No Derivatives 2.5 Generic
+      - Creative Commons Attribution No Derivatives 3.0 Unported
+      - Creative Commons Attribution No Derivatives 4.0 International
+      - Creative Commons Attribution Share Alike 1.0 Generic
+      - Creative Commons Attribution Share Alike 2.0 Generic
+      - Creative Commons Attribution Share Alike 2.0 England and Wales
+      - Creative Commons Attribution Share Alike 2.5 Generic
+      - Creative Commons Attribution Share Alike 3.0 Unported
+      - Creative Commons Attribution-Share Alike 3.0 Austria
+      - Creative Commons Attribution Share Alike 4.0 International
+      - Creative Commons Public Domain Dedication and Certification
+      - Creative Commons Zero v1.0 Universal
+      - OCLC Research Public License 2.0
+      - Open Government Licence v1.0
+      - Open Government Licence v2.0
+      - Open Government Licence v3.0
+  - type: input
+    id: other-licence
+    attributes:
+      label: Other licence 
+      description:  Other licence if it is not included in the above dropdown list
+    validations:
+      required: true
   - type: dropdown
     id: dataset-access
     attributes:

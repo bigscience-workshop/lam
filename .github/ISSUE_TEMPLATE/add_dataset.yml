@@ -30,19 +30,6 @@ body:
         - Other
     validations:
       required: true
-  - type: checkboxes
-    id: type-of-dataset
-    attributes:
-      label: Type of dataset
-      description: What type of datset is this?
-      options:
-        - label: A large unlabeled text corpus, i.e. something that could be used for training language models
-        - label: A large unlabeled image corpus, i.e. something that could be used for pre-training image models
-        - label: An annotated/labelled dataset, i.e. somethng that could be used to train/evaluate a machine learning model
-        - label: A benchmark dataset, i.e. a dataset that has been used to evaluate the performance of machine learning models
-        - label: Other
-    validations:
-      required: true
   - type: input
     id: licence
     attributes:

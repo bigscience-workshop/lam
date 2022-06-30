@@ -43,7 +43,6 @@ body:
       label: Dataset licence
       description: Please select the licence, if it's not included in the options below add it to the next field
       options:
-      - Other license
       - Creative Commons Attribution 4.0 International
       - Creative Commons Attribution Non Commercial 4.0 International
       - Creative Commons Attribution Non Commercial No Derivatives 4.0 International
@@ -54,6 +53,7 @@ body:
       - Creative Commons Zero v1.0 Universal
       - OCLC Research Public License 2.0
       - Open Government Licence v3.0
+      - Other license
   - type: input
     id: other-licence
     attributes:

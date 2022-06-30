@@ -1,0 +1,91 @@
+name: Add dataset
+description: Suggest a new Library, Archive or Museum dataset to include in the Hugging Face Hub.
+title: "Add dataset: [dataset_name_in_snake_case]"
+labels: ["candidate-dataset"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for suggesting a dataset!
+  - type: input
+    id: url
+    attributes:
+      label: A URL for this dataset
+      description: A URL for information about this dataset i.e. a repository landing page 
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Dataset description
+      description: A brief description of the dataset and why it might be of interest
+      placeholder: Please summarise the dataset and why it might be interesting to add to the hub. 
+      value: "This dataset is awesome! Here is why..."
+    validations:
+      required: true
+  - type: dropdown
+    id:  modality
+    attributes:
+      label: Dataset modality
+      description: What is the modality of the data?
+      options:
+        - Text
+        - Image
+        - Audio
+        - Video
+        - Mixed
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: licence
+    attributes:
+      label: Dataset licence
+      description: Please select the licence, if it's not included in the options below add it to the next field
+      options:
+      - Creative Commons Attribution 4.0 International
+      - Creative Commons Attribution Non Commercial 4.0 International
+      - Creative Commons Attribution Non Commercial No Derivatives 4.0 International
+      - Creative Commons Attribution Non Commercial Share Alike 4.0 International
+      - Creative Commons Attribution No Derivatives 4.0 International
+      - Creative Commons Attribution Share Alike 4.0 International
+      - Creative Commons Public Domain Dedication and Certification
+      - Creative Commons Zero v1.0 Universal
+      - OCLC Research Public License 2.0
+      - Open Government Licence v3.0
+      - Other license
+  - type: input
+    id: other-licence
+    attributes:
+      label: Other licence 
+      description:  Other licence if it is not included in the above dropdown list
+    validations:
+      required: false
+  - type: dropdown
+    id: accessibility
+    attributes:
+      label: How can you access this data
+      description: How can one access this data?
+      options:
+        - As a download from a repository/website 
+        - Via an open API
+        - Via an API that requires free registration 
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: open
+    attributes:
+      label: Confirm the dataset has an open licence
+      description: Please confirm the dataset is currently available under an open licence
+      options:
+        - label: To the best of my knowledge, this dataset is accessible via an open licence 
+          required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact details for data custodian 
+      description: A contact for the custodian (email address, web link etc.). This will be useful if it's necessary to ask for further questions about the dataset  
+      placeholder: ex. email@example.com
+    validations:
+      required: false

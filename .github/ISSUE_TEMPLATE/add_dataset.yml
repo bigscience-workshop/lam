@@ -8,7 +8,7 @@ body:
       value: |
         Thank you for suggesting a dataset!
   - type: input
-    id: data-url
+    id: url
     attributes:
       label: A URL for this dataset
       description: A URL for information about this dataset i.e. a repository landing page 

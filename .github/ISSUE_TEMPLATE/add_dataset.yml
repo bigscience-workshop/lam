@@ -107,8 +107,8 @@ body:
   - type: checkboxes
     id: open
     attributes:
-      label: Confirm the dataset is open
-      description: Please confirm the dataset is currently openly available 
+      label: Confirm the dataset has an open licence
+      description: Please confirm the dataset is currently available under an open licence
       options:
         - label: To the best of my knowledge, this dataset is accessible via an open licence 
           required: true

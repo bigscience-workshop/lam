@@ -24,7 +24,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id:  dataset-modality
+    id:  modality
     attributes:
       label: Dataset modality
       description: What is the modality of the data?

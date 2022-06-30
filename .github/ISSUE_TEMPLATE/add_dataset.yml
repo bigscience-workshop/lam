@@ -93,7 +93,7 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: dataset-access
+    id: accessibility
     attributes:
       label: How can you access this data
       description: How can one access this data?

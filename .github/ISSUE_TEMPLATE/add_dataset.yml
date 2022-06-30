@@ -105,7 +105,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: confirm-open
+    id: open
     attributes:
       label: Confirm the dataset is open
       description: Please confirm the dataset is currently openly available 

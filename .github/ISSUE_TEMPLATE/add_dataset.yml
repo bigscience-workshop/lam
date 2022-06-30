@@ -15,7 +15,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: data-description
+    id: description
     attributes:
       label: Dataset description
       description: A brief description of the dataset and why it might be of interest

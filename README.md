@@ -38,7 +38,7 @@ To join the hackathon, start by introducing yourself on our GitHub discussion bo
 
 You should also make sure you signup for the BigLAM Hugging Face organization. <!--TODO ADD LINK-->
 
-For guidance on adding datasets, please check out the Wiki. If you have questions, please check out the [FAQs](https://github.com/bigscience-workshop/lam/wiki/faq)
+For guidance on adding datasets, please check out the [Wiki](https://github.com/bigscience-workshop/lam/wiki/contribute_data). If you have questions, please check out the [FAQs](https://github.com/bigscience-workshop/lam/wiki/faq)
 
 [^ai4lam]: See for example, https://sites.google.com/view/ai4lam 
 [^cordell]: R. Cordell, ‘Machine Learning + Libraries’, LC Labs. Accessed: Mar. 28, 2021. [Online]. Available: https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf, p.34

@@ -23,6 +23,8 @@ Some of the reasons we think that this effort is important include:
 
 ### Training (large) historic language models 
 
+There is a growing interest in using language models with historical texts.[^histlms] Although we are not only focused on collecting datasets for this purpose, we hope that some of the materials we gather as part of this sprint will be helpful in efforts to train language models on historic text data. 
+
 ## How can I contribute? 
 
 There are a few ways to contribute to the hackathon:
@@ -40,3 +42,4 @@ For guidance on adding datasets, please check out the Wiki. If you have question
 
 [^ai4lam]: See for example, https://sites.google.com/view/ai4lam 
 [^cordell]: R. Cordell, ‘Machine Learning + Libraries’, LC Labs. Accessed: Mar. 28, 2021. [Online]. Available: https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf, p.34
+[^histlms]: Schweter, S., März, L., Schmid, K., & cCano, E. (2022). hmBERT: Historical Multilingual Language Models for Named Entity Recognition. ArXiv, abs/2205.15575., Manjavacas, E., & Fonteyn, L. (2022). Adapting vs. Pre-training Language Models for Historical Languages. Journal of Data Mining & Digital Humanities.

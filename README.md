@@ -26,12 +26,13 @@ Some of the reasons we think that this effort is important:
 
 There is a growing interest in using language models with historical texts.[^histlms] Although we are not only focused on collecting datasets for this purpose, we hope that some of the materials we gather as part of this sprint will be helpful in efforts to train language models on historic text data. 
 
-## How can I contribute? 
+## How can I contribute?
 
 There are a few ways to contribute to the hackathon:
-- Suggesting datasets that might be of interest
-- Making those datasets available via the Hugging Face Hub
-- Documenting datasets by adding additional metadata and working on the [data cards](https://huggingface.co/docs/hub/datasets-cards) for those datasets. 
+
+- ✨ Suggesting datasets that might be of interest (see the [Wiki](https://github.com/bigscience-workshop/lam/wiki/contribute_data) for guidance on the kinds of data we're interested in)
+- 🤗 Making those datasets available via the Hugging Face Hub
+- 📝 Documenting datasets by adding additional metadata and working on the [data cards](https://huggingface.co/docs/hub/datasets-cards) for those datasets. 
 
 ## Joining the hackathon 
 

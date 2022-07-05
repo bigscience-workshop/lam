@@ -1,0 +1,14 @@
+name: Label as ready for review
+on:
+  issue_comment:
+    types: created
+jobs:
+  one:
+    runs-on: ubuntu-latest
+    if: >-
+      (github.event.comment.body == '#review' ||
+       github.event.comment.body == '#ready-for-review')
+    steps:
+      - run: |
+          echo "Labeling issue ${{ github.event.issue.number }} with 'ready for review'"
+          curl -X POST -H "Accept: application/vnd.github+json" -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -d '{"labels": ["ready for review"]}' https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/labels

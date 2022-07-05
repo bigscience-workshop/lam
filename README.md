@@ -40,7 +40,7 @@ To join the hackathon, start by introducing yourself on our GitHub discussion bo
 
 Once you have said hi on the discussion boards you should request to join [BigLAM Hugging Face organization](https://huggingface.co/biglam). 
 
-For guidance, please check out the Wiki, please check out the [Wiki](https://github.com/bigscience-workshop/lam/wiki/). 
+For guidance, please check out the [Wiki](https://github.com/bigscience-workshop/lam/wiki/). 
 
 If you have questions:
 

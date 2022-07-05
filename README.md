@@ -14,7 +14,7 @@ We aim to enable easy discovery and programmatic access to these datasets using 
 - Make these datasets available via the [Datasets Hub](https://huggingface.co/datasets)
 - Document these datasets 
 
-## Why are you doing this? 
+## Why are we doing this? 
 
 Some of the reasons we think that this effort is important:
 

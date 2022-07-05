@@ -7,6 +7,7 @@
 We are running a datasets hackathon focused on making data from Libraries, Archives, and Museums (LAMS) with potential machine learning applications accessible via the [Hugging Face Hub](https://huggingface.co/datasets). We are doing this to help make these datasets more discoverable, open them up to new audiences, and help ensure that machine learning datasets more closely reflect the richness of human culture. 
 
 ## Goals 
+
 We aim to enable easy discovery and programmatic access to these datasets using Hugging Face's  🤗 [Datasets Hub](https://huggingface.co/datasets). As part of this, we want to:
 
 - Identify datasets that would be useful to have more easily accessible
@@ -15,7 +16,7 @@ We aim to enable easy discovery and programmatic access to these datasets using 
 
 ## Why are you doing this? 
 
-Some of the reasons we think that this effort is important include:
+Some of the reasons we think that this effort is important:
 
 - There is a growing interest in using Machine Learning with LAM materials[^ai4lam]. The availability of datasets is one of the barriers to this effort. We want to make existing datasets more discoverable and easily accessible[^cordell]. Making datasets suitable for machine learning more easily discoverable will help reduce this barrier. 
 - LAMs hold interesting data that currently we believe is underutilized by the broader machine learning ecosystem. 

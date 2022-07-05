@@ -30,7 +30,7 @@ There is a growing interest in using language models with historical texts.[^his
 
 There are a few ways to contribute to the hackathon:
 
-- ✨ Suggesting datasets that might be of interest (see the [Wiki](https://github.com/bigscience-workshop/lam/wiki/contribute_data) for guidance on the kinds of data we're interested in)
+- ✨ Suggesting datasets that might be of interest (see the [Wiki](https://github.com/bigscience-workshop/lam/wiki/contribute_data#what-kind-of-data-is-suitable-for-sharing-via-the-hub) for guidance on the kinds of data we're interested in)
 - 🤗 Making those datasets available via the Hugging Face Hub
 - 📝 Documenting datasets by adding additional metadata and working on the [data cards](https://huggingface.co/docs/hub/datasets-cards) for those datasets. 
 

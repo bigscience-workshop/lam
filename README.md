@@ -37,7 +37,7 @@ There are a few ways to contribute to the hackathon:
 
 To join the hackathon, start by introducing yourself on our GitHub discussion board https://github.com/bigscience-workshop/lam/discussions/5. 
 
-You should also make sure you signup for the BigLAM Hugging Face organization. <!--TODO ADD LINK-->
+Once you have said hi on the discussion boards you should request to join [BigLAM Hugging Face organization](https://huggingface.co/biglam). 
 
 For guidance on adding datasets, please check out the [Wiki](https://github.com/bigscience-workshop/lam/wiki/contribute_data). If you have questions, please check out the [FAQs](https://github.com/bigscience-workshop/lam/wiki/faq)
 

@@ -5,18 +5,14 @@ on:
 jobs:
   self-assign:
     runs-on: ubuntu-latest
-    if: >-
-      (github.event.comment.body == '#take' ||
-       github.event.comment.body == '#self-assign')
+    if: startsWith(github.event.comment.body, '#self-assign')
     steps:
       - run: |
           echo "Assigning issue ${{ github.event.issue.number }} to ${{ github.event.comment.user.login }}"
           curl -X POST -H "Accept: application/vnd.github+json" -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" -d '{"assignees": ["${{ github.event.comment.user.login }}"]}' https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.issue.number }}/assignees
   self-unassign:
     runs-on: ubuntu-latest
-    if: >-
-      (github.event.comment.body == '#untake' ||
-       github.event.comment.body == '#self-unassign')
+    if: startsWith(github.event.comment.body, '#self-unassign')
     steps:
       - run: |
           echo "Unassigning issue ${{ github.event.issue.number }} to ${{ github.event.comment.user.login }}"

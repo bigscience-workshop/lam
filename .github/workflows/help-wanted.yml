@@ -5,9 +5,7 @@ on:
 jobs:
   one:
     runs-on: ubuntu-latest
-    if: >-
-      (github.event.comment.body == '#help' ||
-       github.event.comment.body == '#help-wanted')
+    if: startsWith(github.event.comment.body, '#help-wanted')
     steps:
       - run: |
           echo "Labeling issue ${{ github.event.issue.number }} with 'help wanted'"

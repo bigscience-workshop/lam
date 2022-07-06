@@ -5,9 +5,7 @@ on:
 jobs:
   one:
     runs-on: ubuntu-latest
-    if: >-
-      (github.event.comment.body == '#review' ||
-       github.event.comment.body == '#ready-for-review')
+    if: startsWith(github.event.comment.body, '#ready-for-review')
     steps:
       - run: |
           echo "Labeling issue ${{ github.event.issue.number }} with 'ready for review'"

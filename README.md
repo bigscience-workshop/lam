@@ -47,6 +47,9 @@ If you have questions:
 - first, check out the [FAQs](https://github.com/bigscience-workshop/lam/wiki/faq)
 - if you don't find the answer in the FAQs, please ask on the [discussions board](https://github.com/bigscience-workshop/lam/discussions/)
 
+## Dates
+
+Initially we plan to run the hackathon until August 19th 2022. 
 
 [^ai4lam]: See for example, https://sites.google.com/view/ai4lam 
 [^cordell]: R. Cordell, ‘Machine Learning + Libraries’, LC Labs. Accessed: Mar. 28, 2021. [Online]. Available: https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf, p.34

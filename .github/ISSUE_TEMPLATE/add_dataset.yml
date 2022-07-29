@@ -73,6 +73,18 @@ body:
         - Other
     validations:
       required: true
+ - type: dropdown
+    id: size
+    attributes:
+      label: size of dataset
+      description: What is the size of this dataset?
+      options:
+        - <500MB
+        - 500MB-2GB
+        - 2GB-10GB 
+        - >10GB
+    validations:
+      required: false
   - type: checkboxes
     id: open
     attributes:

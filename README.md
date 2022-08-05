@@ -56,4 +56,4 @@ Initially we plan to run the hackathon until August 19th 2022.
 
 [^ai4lam]: See for example, https://sites.google.com/view/ai4lam 
 [^cordell]: R. Cordell, ‘Machine Learning + Libraries’, LC Labs. Accessed: Mar. 28, 2021. [Online]. Available: https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf, p.34
-[^histlms]: Schweter, S., März, L., Schmid, K., & cCano, E. (2022). hmBERT: Historical Multilingual Language Models for Named Entity Recognition. ArXiv, abs/2205.15575., Manjavacas, E., & Fonteyn, L. (2022). Adapting vs. Pre-training Language Models for Historical Languages. Journal of Data Mining & Digital Humanities.
+[^histlms]: Schweter, S., März, L., Schmid, K., & Çano, E. (2022). hmBERT: Historical Multilingual Language Models for Named Entity Recognition. ArXiv, abs/2205.15575., Manjavacas, E., & Fonteyn, L. (2022). Adapting vs. Pre-training Language Models for Historical Languages. Journal of Data Mining & Digital Humanities.

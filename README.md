@@ -52,7 +52,7 @@ If you have questions:
 
 ## Dates
 
-Initially we plan to run the hackathon until ~~August 19th 2022.~~ October 2022 
+Initially we plan to run the hackathon until ~~August 19th 2022.~~ the end of October 2022.
 
 [^ai4lam]: See for example, https://sites.google.com/view/ai4lam 
 [^cordell]: R. Cordell, ‘Machine Learning + Libraries’, LC Labs. Accessed: Mar. 28, 2021. [Online]. Available: https://labs.loc.gov/static/labs/work/reports/Cordell-LOC-ML-report.pdf, p.34

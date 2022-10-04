@@ -4,7 +4,7 @@
 
 [BigScience 🌸](https://bigscience.huggingface.co/) is an open scientific collaboration of nearly 600 researchers from 50 countries and 250 institutions who collaborate on various projects within the natural language processing (NLP) space to broaden the accessibility of language datasets while working on challenging scientific questions around training language models.
 
-We are running a datasets hackathon focused on making data from Libraries, Archives, and Museums (LAMS) with potential machine learning applications accessible via the [Hugging Face Hub](https://huggingface.co/datasets). You might also know this field as 'GLAM' - galleries, libraries, archives and museums.
+We are running a datasets hackathon focused on making data from Libraries, Archives, and Museums (LAMS) with potential machine learning applications accessible via the [Hugging Face Hub](https://huggingface.co/datasets). You might also know this field as ['GLAM'](https://en.wikipedia.org/wiki/Glam) - galleries, libraries, archives and museums.
 
 We are doing this to help make these datasets more discoverable, open them up to new audiences, and help ensure that machine learning datasets more closely reflect the richness of human culture.
 
